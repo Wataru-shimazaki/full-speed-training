@@ -46,9 +46,8 @@ catch (Exception $e)
 
 
 ?>
-
-        修正しました。<br/>
-        <br/>
+<span style="font:900 15pt 'ＭＳ Ｐ明朝'">修正しました</span>
+<br/>
 <a href="index.php">一覧へ</a>
 
 </body>

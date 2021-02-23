@@ -40,16 +40,16 @@ catch(Exception $e)
     print'ただいま障害により大変ご迷惑をおかけしております。';
     exit();
 }
-    ?>
+?>
 
-タイトル：
+<span style="font:900 15pt 'ＭＳ Ｐ明朝'">タイトル：</span>
 <?php print $td_title; ?>
 <br/>
-内容：
+<span style="font:900 15pt 'ＭＳ Ｐ明朝'">内容：</span>
 <?php print $td_content; ?>
 <br/>
 <br/>
-このタスクを削除してもよろしいですか。<br/>
+<span style="font:900 15pt 'ＭＳ Ｐ明朝'">本当に削除してもよろしいですか？</span><br/>
 <br/>
 <form method="post" action="delete_done.php">
 <input type="hidden"name="ID" value="<?php print $td_ID;?>">

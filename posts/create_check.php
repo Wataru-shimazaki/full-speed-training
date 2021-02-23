@@ -33,10 +33,10 @@ elseif($limit<$telLength)
     print'タイトルの文字数は25文字以内で入力してください。<br/>';
 }
 else
-{
-    print'タイトル:';
-    print$td_title;
-    print'<br/>';
+{ ?>
+<span style="font:900 15pt 'ＭＳ Ｐ明朝'">タイトル：</span>
+<?php print$td_title;
+      print'<br/>';
 }
 //内容が未入力ではないかチェック
 if($td_content=='')
@@ -44,10 +44,10 @@ if($td_content=='')
     print'内容が入力されていません。<br/>';
 }
 else
-{
-    print'内容:';
-    print$td_content;
-    print'<br/>';
+{ ?>
+<span style="font:900 15pt 'ＭＳ Ｐ明朝'">内容：</span>
+<?php print$td_content;
+      print'<br/>';
 }
 
 if($td_title==''||$td_content==''||$limit<$telLength)

@@ -40,8 +40,9 @@ catch (Exception $e)
 
 ?>
 
-        削除しました。<br/>
-        <br/>
+<span style="font:900 15pt 'ＭＳ Ｐ明朝'">削除しました。</span>
+<br/>
+<br/>
 <a href="index.php">一覧へ</a>
 
 </body>

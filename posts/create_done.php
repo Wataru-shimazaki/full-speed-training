@@ -35,10 +35,12 @@ $stmt->execute($data);
 
 $dbh=null;
 
-print 'title:';
-print $td_title;
-print '<br/>を追加しました。<br />';
-
+?>
+<span style="font:900 15pt 'ＭＳ Ｐ明朝'">タイトル：</span>
+<?php print $td_title;?>
+<br/>
+<span style="font:900 15pt 'ＭＳ Ｐ明朝'">を追加しました。</span><br />
+<?php
 }
 catch (Exception $e)
 {
